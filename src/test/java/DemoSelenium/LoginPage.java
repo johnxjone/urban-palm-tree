@@ -12,7 +12,7 @@ public class LoginPage {
 	@FindBy(xpath = "(//*[@type='text'])[1]")
 	WebElement Base;
 			
-	@FindBy(xpath = "(//*[@name='linkName1'])[1]")
+	@FindBy(xpath = "(//*[@name='linkName1'])[1 ]")
 	WebElement User;			
 	
 	
